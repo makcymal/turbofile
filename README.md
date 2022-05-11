@@ -1,19 +1,23 @@
-# turbofile
+# TurboFile
 
-## Project setup
+## Project run
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm run electron:serve
 ```
 
-### Compiles and minifies for production
+## Project build
 ```
-npm run build
+npm run electron:build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### App provides user interface for interaction with local machine file system
+
+#### Supported all main actions such as
+creating new folder or file
+cutting / coping / pasting folders and files
+renaming folders and files
+removing folders and files
+searching
+
+#### Also supported bookmark system
+
